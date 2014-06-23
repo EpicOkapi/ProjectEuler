@@ -1,5 +1,7 @@
 package net.lvuur.projecteuler;
 
+import net.lvuur.util.PrimeUtil;
+
 public class Problem7 {
 	/*
 	 * Problem 7: 1001st prime
@@ -12,33 +14,9 @@ public class Problem7 {
 		int currentPrime = 0;
 		
 		for(int i = 0; i < 10002; i++){
-			currentPrime = nextPrime(currentPrime);
+			currentPrime = PrimeUtil.nextPrime(currentPrime);
 		}
 		
 		System.out.println(currentPrime); //104743
-	}
-
-	static int nextPrime(int prime){
-		prime++;
-		
-		while(!isPrime(prime)){
-			prime++;
-		}
-		
-		return prime;
-	}
-	
-	static boolean isPrime(int n){
-		for(int i = 0; i < n; i++){
-			if(i == 0 || i == 1 || i == n){
-				continue;
-			}
-			
-			if(n % i == 0){
-				return false;
-			}
-		}
-		
-		return true;
 	}
 }

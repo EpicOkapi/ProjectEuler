@@ -2,6 +2,8 @@ package net.lvuur.projecteuler;
 
 import java.util.ArrayList;
 
+import net.lvuur.util.PrimeUtil;
+
 public class Problem3 {
 	/*
 	 * Problem 3: Largest prime factor
@@ -20,7 +22,7 @@ public class Problem3 {
 			int currentPrime = 2;
 			
 			while(currentN % currentPrime != 0){
-				currentPrime = nextPrime(currentPrime);
+				currentPrime = PrimeUtil.nextPrime(currentPrime);
 			}
 			
 			currentN = currentN / currentPrime;
@@ -28,29 +30,5 @@ public class Problem3 {
 		}
 		
 		System.out.println(primes.get(primes.size() - 1)); //6857
-	}
-	
-	static int nextPrime(int prime){
-		prime++;
-		
-		while(!isPrime(prime)){
-			prime++;
-		}
-		
-		return prime;
-	}
-	
-	static boolean isPrime(int n){
-		for(int i = 0; i < n; i++){
-			if(i == 0 || i == 1 || i == n){
-				continue;
-			}
-			
-			if(n % i == 0){
-				return false;
-			}
-		}
-		
-		return true;
 	}
 }
