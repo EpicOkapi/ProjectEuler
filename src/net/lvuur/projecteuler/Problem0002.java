@@ -1,6 +1,6 @@
 package net.lvuur.projecteuler;
 
-public class Problem2 {
+public class Problem0002 {
 	/*
 	 * Problem 2: Even Fibonacci numbers
 	 * 

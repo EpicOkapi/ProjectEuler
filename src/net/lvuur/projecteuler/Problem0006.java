@@ -1,6 +1,6 @@
 package net.lvuur.projecteuler;
 
-public class Problem6 {
+public class Problem0006 {
 	/*
 	 * Problem 6: Sum square difference
 	 * 

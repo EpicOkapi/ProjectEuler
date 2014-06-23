@@ -1,6 +1,6 @@
 package net.lvuur.projecteuler;
 
-public class Problem5 {
+public class Problem0005 {
 	/*
 	 * Problem 5: Smallest multiple
 	 * 

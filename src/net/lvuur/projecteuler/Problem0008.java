@@ -1,6 +1,6 @@
 package net.lvuur.projecteuler;
 
-public class Problem8 {
+public class Problem0008 {
 	/*
 	 * Problem 8: Largest product in a series
 	 * 

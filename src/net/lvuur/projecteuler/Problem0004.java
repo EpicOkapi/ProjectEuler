@@ -2,7 +2,7 @@ package net.lvuur.projecteuler;
 
 import java.util.Arrays;
 
-public class Problem4 {
+public class Problem0004 {
 	/*
 	 * Problem 4: Largest palindrome product
 	 * 

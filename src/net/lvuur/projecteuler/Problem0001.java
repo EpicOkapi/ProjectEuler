@@ -1,6 +1,6 @@
 package net.lvuur.projecteuler;
 
-public class Problem1 {
+public class Problem0001 {
 	/*
 	 * Problem 1: Multiples of 3 and 5
 	 * 
