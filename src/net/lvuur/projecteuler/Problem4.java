@@ -38,9 +38,6 @@ public class Problem4 {
 		}
 		
 		if(Arrays.equals(chars, switchedChars)){
-			//System.out.println(chars);
-			//System.out.println(switchedChars);
-			
 			return true;
 		}
 		
