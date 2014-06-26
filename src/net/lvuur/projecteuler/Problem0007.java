@@ -2,7 +2,7 @@ package net.lvuur.projecteuler;
 
 import net.lvuur.util.PrimeUtil;
 
-public class Problem7 {
+public class Problem0007 {
 	/*
 	 * Problem 7: 1001st prime
 	 * 

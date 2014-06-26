@@ -2,7 +2,7 @@ package net.lvuur.projecteuler;
 
 import net.lvuur.util.PrimeUtil;
 
-public class Problem10 {
+public class Problem0010 {
 	/*
 	 * Problem 10: Summation of primes
 	 * 

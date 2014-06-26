@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import net.lvuur.util.PrimeUtil;
 
-public class Problem3 {
+public class Problem0003 {
 	/*
 	 * Problem 3: Largest prime factor
 	 * 
